@@ -1,0 +1,10 @@
+.footer {
+  color: $secondary;
+  font-weight: 300;
+
+  &__me {
+    padding-left: 2px;
+    color: $secondary;
+    font-weight: 600;
+  }
+}
