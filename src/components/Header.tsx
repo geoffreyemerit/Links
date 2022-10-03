@@ -26,7 +26,7 @@ const Header = () => {
           </a>
         ))}
       </div>
-      <FontAwesomeIcon className="header__qrCode" icon="fa-solid fa-qrcode" />
+      {/* <FontAwesomeIcon className="header__qrCode" icon="fa-solid fa-qrcode" /> */}
     </div>
   );
 };
