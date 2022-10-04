@@ -12,7 +12,6 @@ const Button = () => {
             className="button__item"
             href={button.href}
             target={button.target}
-            download
           >
             <div className="button__item__content">
               <div className="button__item__content__left">
