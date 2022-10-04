@@ -26,6 +26,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 1rem;
+  border: 3px solid $primary;
+  transition: all 0.14s ease-out;
 
   &__title {
     font-family: 'Bold';
@@ -67,6 +70,7 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: $tertiary;
     border: 1px solid $tertiary;
     font-family: 'Bold';

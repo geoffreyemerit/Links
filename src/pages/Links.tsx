@@ -13,7 +13,7 @@ const Links = () => {
       <div className="linksPage">
         <FontAwesomeIcon
           className="linksPage__qrCode"
-          icon="fa-solid fa-qrcode"
+          icon={['fas', 'qrcode']}
           onClick={() => {
             setIsModalOpened(true);
           }}
