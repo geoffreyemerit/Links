@@ -1,0 +1,80 @@
+.blur {
+  backdrop-filter: blur(3px);
+  background-color: transparent;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.qrCode {
+  position: fixed;
+  z-index: 20;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 90%;
+  max-width: 450px;
+  height: 500px;
+  background-color: $secondary;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__title {
+    font-family: 'Bold';
+    margin: 1.5rem 0 1rem 0;
+    line-height: 30px;
+  }
+
+  &__subtitle {
+    font-family: 'Regular';
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0;
+    line-height: 20px;
+  }
+
+  &__logo {
+    border-radius: 30px;
+    height: 50%;
+    margin: 1rem;
+  }
+  &__cross {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+    height: 35px;
+    color: $primary;
+    &:hover {
+      color: $tertiary;
+      transition: all 0.14s ease-out;
+    }
+  }
+  &__download {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: $tertiary;
+    border: 1px solid $tertiary;
+    font-family: 'Bold';
+    font-size: 1.2rem;
+    background-color: $primary;
+    &:hover {
+      box-shadow: 0.25rem 0.25rem 0 0 $tertiary;
+      transform: translate(-0.25rem, -0.25rem);
+    }
+  }
+}
