@@ -8,7 +8,12 @@ import {
   faGlobe,
   faLaptopCode,
 } from '@fortawesome/free-solid-svg-icons';
-import { far, faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
+import {
+  far,
+  faEnvelope,
+  faFile,
+  faCircleXmark,
+} from '@fortawesome/free-regular-svg-icons';
 import {
   fab,
   faFacebookF,
@@ -26,6 +31,7 @@ library.add(
   faLaptopCode,
   far,
   faEnvelope,
+  faCircleXmark,
   fab,
   faFacebookF,
   faFacebookMessenger,

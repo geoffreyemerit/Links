@@ -9,7 +9,6 @@
     border: 1px solid $secondary;
     width: 80%;
     margin: 1rem auto;
-    border-color: $secondary;
     cursor: pointer;
     border-radius: 3rem;
     transition: all 0.14s ease-out;
@@ -27,7 +26,6 @@
       &__left {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         margin-left: 1rem;
 
         &__iconLogo {

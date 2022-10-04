@@ -41,20 +41,8 @@
       width: 1.5rem;
       &:hover {
         color: $tertiary;
+        transition: all 0.14s ease-out;
       }
     }
-  }
-
-  &__qrCode {
-    position: relative;
-    right: -210px;
-    top: -250px;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 46px;
-    z-index: 1;
-    color: $secondary;
   }
 }
