@@ -1,4 +1,8 @@
 @import 'sass/_index.scss';
-@import 'sass/variable';
-@import 'sass/footer';
+@import 'sass/typography.scss';
+@import 'sass/_variable.scss';
+
 @import 'sass/links';
+
+@import 'sass/header';
+@import 'sass/footer';

@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__img {
+    width: 90px;
+    height: 90px;
+    margin: 3rem 0 0.5rem 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 100%;
+  }
+  &__name {
+    color: $secondary;
+    font-family: 'Extra-Bold';
+    margin: 0 0 0.5rem 0;
+    &__point {
+      color: $tertiary;
+    }
+  }
+  &__description {
+    color: $secondary;
+    font-family: 'Semi-Bold';
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+    padding: 0 2rem;
+  }
+
+  &__socialLinks {
+    display: flex;
+    list-style: none;
+    &__item {
+      color: $secondary;
+      text-decoration: none;
+      padding: 0.75rem;
+      &:hover {
+        color: $tertiary;
+      }
+    }
+  }
+
+  &__qrCode {
+    position: relative;
+    right: -210px;
+    top: -250px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 46px;
+    z-index: 1;
+    color: $secondary;
+  }
+}

@@ -1,23 +1,29 @@
 const linksArray = [
   {
-    id: 'logos-phone',
+    id: 1,
     name: 'Phone',
+    logo: ['fas', 'phone'],
     href: 'tel:0622175004',
+    target: '_blank',
   },
   {
-    id: 'logos-mail',
+    id: 2,
     name: 'Email',
+    logo: ['far', 'envelope'],
     href: 'mailto:geoffrey.emerit@gmail.com',
+    target: '_blank',
   },
   {
-    id: 'logos-messenger',
+    id: 3,
     name: 'Messenger',
+    logo: ['fab', 'facebook-messenger'],
     href: 'https://m.me/geoffreyemerit/',
     target: '_blank',
   },
   {
-    id: 'logos-facebook',
+    id: 4,
     name: 'Facebook',
+    logo: ['fab', 'facebook-f'],
     href: 'https://www.facebook.com/geoffrey.emerit/',
     target: '_blank',
   },
