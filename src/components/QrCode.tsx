@@ -1,6 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const QrCode = ({ setIsModalOpened }) => {
+interface QrCodeProps {
+  setIsModalOpened: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const QrCode = ({ setIsModalOpened }: QrCodeProps) => {
   return (
     <div className="blur">
       <div className="qrCode">
@@ -16,7 +20,7 @@ const QrCode = ({ setIsModalOpened }) => {
 
         <FontAwesomeIcon
           className="qrCode__cross"
-          icon="fa-regular fa-circle-xmark"
+          icon={['far', 'circle-xmark']}
           onClick={() => {
             setIsModalOpened(false);
           }}

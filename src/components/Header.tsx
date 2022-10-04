@@ -1,5 +1,6 @@
 import linksArray from '../../data/linksArray';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 const Header = () => {
   return (
@@ -21,7 +22,7 @@ const Header = () => {
           <a key={link.id} href={link.href} target={link.target}>
             <FontAwesomeIcon
               className="header__socialLinks__item"
-              icon={link.logo}
+              icon={link.logo as IconProp}
             />
           </a>
         ))}
