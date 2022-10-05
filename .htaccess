@@ -1,6 +1,3 @@
-Redirect 301 /github.html https://github.com/geoffreyemerit/
-Redirect 301 /github https://github.com/geoffreyemerit/
-
-Redirect 301 /gh https://github.com/geoffreyemerit/
+Redirect 301 /gh.html https://github.com/geoffreyemerit/
 
 Redirect 301 /in https://www.linkedin.com/in/geoffreyemerit/
