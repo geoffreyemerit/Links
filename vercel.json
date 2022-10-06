@@ -1,8 +1,33 @@
 {
   "redirects": [
     {
-      "source": "/view-source",
-      "destination": "https://github.com/vercel/vercel",
+      "source": "/gh",
+      "destination": "https://github.com/geoffreyemerit",
+      "statusCode": 301
+    },
+    {
+      "source": "/in",
+      "destination": "https://www.linkedin.com/in/geoffreyemerit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/pf",
+      "destination": "https://www.gemerit.com/",
+      "statusCode": 301
+    },
+    {
+      "source": "/cw",
+      "destination": "https://www.codewars.com/users/geoffreyemerit",
+      "statusCode": 301
+    },
+    {
+      "source": "/fb",
+      "destination": "https://www.facebook.com/geoffrey.emerit/",
+      "statusCode": 301
+    },
+    {
+      "source": "/me",
+      "destination": "https://m.me/geoffreyemerit/",
       "statusCode": 301
     }
   ]
