@@ -3,14 +3,14 @@ const buttonsArray = [
     id: 0,
     title: 'Linkedin',
     logo: ['fab', 'linkedin-in'],
-    href: 'https://links.gemerit.com/in',
+    href: 'https://www.linkedin.com/in/geoffreyemerit/',
     target: '_blank',
   },
   {
     id: 1,
     title: 'Github',
     logo: ['fab', 'github'],
-    href: 'https://links.gemerit.com/gh',
+    href: 'https://github.com/geoffreyemerit',
     target: '_blank',
   },
   {
