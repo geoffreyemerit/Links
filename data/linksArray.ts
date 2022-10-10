@@ -17,14 +17,14 @@ const linksArray = [
     id: 2,
     name: 'Messenger',
     logo: ['fab', 'facebook-messenger'],
-    href: 'https://links.gemerit.com/me',
+    href: 'https://gemerit.com/me',
     target: '_blank',
   },
   {
     id: 3,
     name: 'Facebook',
     logo: ['fab', 'facebook-f'],
-    href: 'https://links.gemerit.com/fb',
+    href: 'https://gemerit.com/fb',
     target: '_blank',
   },
 ];
