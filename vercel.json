@@ -12,7 +12,7 @@
     },
     {
       "source": "/pf",
-      "destination": "https://www.pf.gemerit.com/",
+      "destination": "https://pf.gemerit.com/",
       "statusCode": 301
     },
     {
