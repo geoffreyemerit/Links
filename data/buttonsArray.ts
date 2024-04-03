@@ -15,9 +15,9 @@ const buttonsArray = [
   },
   {
     id: 2,
-    title: 'Portfolio',
+    title: 'Dernière réalisation',
     logo: ['fas', 'globe'],
-    href: 'https://gemerit.com/pf',
+    href: 'https://challenge.galaxim.com/#/',
     target: '_blank',
   },
   {
